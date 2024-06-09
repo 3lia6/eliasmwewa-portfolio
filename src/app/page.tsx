@@ -34,7 +34,7 @@ export default function Home() {
         className="scroll-indicator"
         style={{ width: `${scrollPosition}%` }}
       ></div>
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mt-24 mx-auto px-10 py-4">
         <section id="hero">
           <HeroSection />
         </section>

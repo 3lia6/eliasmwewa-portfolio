@@ -1,14 +1,13 @@
-import { useEffect, useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
 
 const HeroSection = () => {
   return (
     <div className="relative">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
         {/* Left Column */}
         <div>
-          <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-5xl lg:leading-normal font-extrabold'>
+          <h1 className='text-white mb-4 text-3xl sm:text-5xl lg:text-4xl lg:leading-normal font-extrabold'>
             <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-300 via-blue-600 to-purple-800'> Hello There, I&apos;m {" "}</span>
             <TypeAnimation
               sequence={[
@@ -16,7 +15,7 @@ const HeroSection = () => {
                 800,
                 'a data analyst ',
                 800,
-                'a software developer',
+                'a developer',
                 800,
                 'from Zambia',
                 800,
@@ -32,19 +31,19 @@ const HeroSection = () => {
             Join me for more products and services! 
           </p>
           <p>NOTICE: Please note that the portfolio is still undergoing development. More features and updates will be added later.</p>
-          <div className="mt-6 space-x-4">
+          <div className="flex flex-col md:flex-row mt-6 space-y-4 md:space-y-0 md:space-x-4">
             <a
               href="https://wa.me/260974080091"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-3 rounded bg-gradient-to-r from-blue-900 to-orange-500 text-white"
+              className="px-4 py-3 rounded bg-gradient-to-r from-blue-900 to-orange-500 text-white text-center"
             >
               Hire Me
             </a>
             <a
               href="/images/projects/zenith.png"
               download
-              className="px-4 py-3 rounded bg-gradient-to-r to-blue-900 from-orange-600 text-white"
+              className="px-4 py-3 rounded bg-gradient-to-r to-blue-900 from-orange-600 text-white text-center"
             >
               Download my Resume/CV
             </a>

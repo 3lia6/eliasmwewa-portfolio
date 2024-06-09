@@ -31,7 +31,7 @@ const Achievement = ({ metrics, value }) => {
     const end = value;
     if (start === end) return;
 
-    let totalMilSecDur = 2000;
+    let totalMilSecDur = 600;
     let incrementTime = (totalMilSecDur / end) * 3;
 
     const timer = setInterval(() => {

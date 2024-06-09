@@ -1,5 +1,5 @@
 'use client'
-import React, {useTransition, useState} from 'react'
+import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton'
 
@@ -51,8 +51,8 @@ const TAB_DATA = [
         )
     },
     {
-        title: 'Technologies',
-        id: 'technologies',
+        title: 'Tech',
+        id: 'tech',
         content: (
             <ul className='list-disc pl-2'>
                 <li>Flutter/ FlutterFlow</li>
@@ -87,7 +87,7 @@ const AboutSection = () => {
             <div className='md:grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
                 <Image src="/images/elias.jpg" width={500} height={800} alt="elias"/>
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                    <h2 className='text-4xl font-semibold mt-6 mb-3'>About Me</h2>
+                    <h2 className='text-3xl font-semibold mt-6 mb-3'>About Me</h2>
                     <p className='text-base lg:text-lg'>
                         Hello there! I&apos;m Elias Mwewa, a 24-year-old Information Systems 
                         and Technology Specialist from Lusaka, Zambia. With a 
@@ -103,7 +103,7 @@ const AboutSection = () => {
                     <p className='text-base lg:text-lg mt-3'>
                         Current Networth - Cash poor. Hire me, I need more money.
                     </p>
-                    <div className='flex flex-row justify-start mt-6'>
+                    <div className='flex flex-col space-y-2 sm:flex-col md:flex-col lg:flex-row justify-start mt-6 lg:space-y-0 lg:space-x-4'>
                         <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}> 
                             Skills
                         </TabButton>
@@ -116,8 +116,8 @@ const AboutSection = () => {
                         <TabButton selectTab={() => handleTabChange('experience')} active={tab === 'experience'}> 
                             Experience
                         </TabButton>
-                        <TabButton selectTab={() => handleTabChange('technologies')} active={tab === 'technologies'}> 
-                            Technologies
+                        <TabButton selectTab={() => handleTabChange('tech')} active={tab === 'tech'}> 
+                            Tech
                         </TabButton>
                     </div>
                     <div className='mt-4'>
