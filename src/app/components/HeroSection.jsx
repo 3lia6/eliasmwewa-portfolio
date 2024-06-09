@@ -42,7 +42,7 @@ const HeroSection = () => {
               Hire Me
             </a>
             <a
-              href="/images/projects/my resume.pdf"
+              href="/images/projects/zenith.png"
               download
               className="px-4 py-3 rounded bg-gradient-to-r to-blue-900 from-orange-600 text-white"
             >
