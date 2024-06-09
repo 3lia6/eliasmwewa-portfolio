@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left side with logo */}
         <div className="flex items-center text-white">
-          <Image src='/images/projects/zenith.png' alt="Company Logo" width={100} height={100} />
+          <Image src='/images/projects/logo.png' alt="Company Logo" width={100} height={100} />
           <h1 className="font-cursive text-xl ml-4">Elias Mwewa</h1>
         </div>
         {/* Right side with links */}
