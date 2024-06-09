@@ -10,16 +10,16 @@ const navLinks = [
         path: '#blog',
     },
     {
-        title: 'About',
-        path: '#about',
+        title: 'Companies',
+        path: '#companies',
     },
     {
-        title: 'Projects',
-        path: '#projects',
+        title: 'Upcoming',
+        path: '#upcoming',
     },
     {
-        title: 'Contact',
-        path: '#contact',
+        title: 'Merch',
+        path: '#merch',
     },
     
 ];
