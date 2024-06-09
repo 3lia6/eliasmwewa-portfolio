@@ -55,7 +55,7 @@ const HeroSection = () => {
         <div className='flex justify-center items-center'>
           <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
             <Image
-              src='/images/something new.png'
+              src='/images/projects/something new.png' // Adjusted path to reference from the public directory
               alt='hero image'
               width={300}
               height={300}

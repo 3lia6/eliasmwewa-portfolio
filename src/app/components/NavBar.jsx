@@ -35,7 +35,7 @@ const NavBar = () => {
         <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
             <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
                 <div className='flex items-center text-2xl md:text-3xl text-white font-cursive cursor-pointer'>
-                    <img src='/images/something new.png' alt='Logo' className='h-12 w-12 mr-2' />
+                    <img src='/images/projects/something new.png' alt='Logo' className='h-12 w-12 mr-2' />
                     <span className='hidden md:block' style={{ fontFamily: 'cursive', fontSize: '1.6rem' }}>Elias Mwewa</span>
                 </div>
                 <div className='mobile-menu block md:hidden'>
