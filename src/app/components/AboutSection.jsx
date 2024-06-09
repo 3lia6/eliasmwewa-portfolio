@@ -85,7 +85,7 @@ const AboutSection = () => {
     return (
         <section className='text-white'>
             <div className='md:grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-                <Image src="/images/projects/elias.jpg" width={500} height={800} alt="elias"/>
+                <Image src="/images/elias.jpg" width={500} height={800} alt="elias"/>
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-3xl font-semibold mt-6 mb-3'>About Me</h2>
                     <p className='text-base lg:text-lg'>
