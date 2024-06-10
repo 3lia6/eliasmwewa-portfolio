@@ -101,7 +101,7 @@ const AboutSection = () => {
                         growth opportunities in the field.
                     </p>
                     <p className='text-base lg:text-lg mt-3'>
-                        Current Networth - Cash poor. Hire me, I need more money.
+                        Current Networth - Cash poor.
                     </p>
                     <div className='flex flex-col space-y-2 sm:flex-col md:flex-col lg:flex-row justify-start mt-6 lg:space-y-0 lg:space-x-4'>
                         <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}> 
