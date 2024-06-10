@@ -43,8 +43,8 @@ const projectsData = [
     },
     {
         id: 5,
-        title: 'Blaze - Personal Web Applicatio',
-        description: 'Zambian Music Subscription Based Web App For Top and Coming Zambian Talents In Flutter. Status: In development',
+        title: 'Blaze - Navbar and NavMenu Example App',
+        description: 'Example of A Flutter App NavBar+NavMenu',
         image: '/images/projects/blaze.png',
         tag: ['All','Mobile'],
         gitUrl: '/',
