@@ -45,7 +45,7 @@ const Footer = () => {
       {/* Bottom Row */}
       <div className="container mx-auto flex flex-col text-white md:flex-row items-center justify-between">
         {/* Left side with copyright */}
-        <p className="mb-4 md:mb-0"> Copyright&copy; All Rights Reserved Elias Mwewa</p>
+        <p className="mb-4 md:mb-0"> Copyright &copy; All Rights Reserved Elias Mwewa</p>
         {/* Right side with terms and conditions and privacy policy */}
         <div>
           <p className="mb-4 md:mb-0 justify-between">
