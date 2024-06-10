@@ -30,7 +30,7 @@ const HeroSection = () => {
             From innovative solutions to impactful creations, I&apos;m dedicated to leveraging technology for positive change.
             Join me for more products and services! 
           </p>
-          <p>NOTICE: Please note that the portfolio is still undergoing development. More features and updates will be added later.</p>
+          <p>NOTICE: Portfolio is still under development. More features and updates coming soon.</p>
           <div className="flex flex-col md:flex-row mt-6 space-y-4 md:space-y-0 md:space-x-4">
             <a
               href="https://wa.me/260974080091"
@@ -41,7 +41,7 @@ const HeroSection = () => {
               Hire Me
             </a>
             <a
-              href="/images/projects/resume.pdf"
+              href="/images/projects/Resume.pdf"
               download
               className="px-4 py-3 rounded bg-gradient-to-r to-blue-900 from-orange-600 text-white text-center"
             >
