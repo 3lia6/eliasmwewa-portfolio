@@ -39,16 +39,34 @@ const projectsData = [
         image: '/images/projects/fkcm.png',
         tag: ['All', 'Mobile','Web'],
         gitUrl: '/',
-        previewUrl: 'https://f-k-c-m-fishing-investments-vdpibw.flutterflow.app'
+        previewUrl: 'https://f-k-c-m-fisheries.flutterflow.app'
     },
     {
         id: 5,
         title: 'Blaze - Personal Web Applicatio',
         description: 'Zambian Music Subscription Based Web App For Top and Coming Zambian Talents In Flutter. Status: In development',
         image: '/images/projects/blaze.png',
-        tag: ['All','Mobile', 'Web'],
+        tag: ['All','Mobile'],
         gitUrl: '/',
-        previewUrl: 'https://blazezambia.flutterflow.app' 
+        previewUrl: 'https://blazemusicblog.flutterflow.app' 
+    },
+    {
+        id: 6,
+        title: 'My Portfolio',
+        description: 'Created through NEXT JS. It is 85.1% Javascript, 7.8% TypeScript, and 7.1% CSS. I will be adding more functions and features to it with time. please stay glued.',
+        image: '/images/projects/portfolio.png',
+        tag: ['All', 'Web'],
+        gitUrl: 'https://github.com/3lia6/eliasmwewa-portfolio',
+        previewUrl: 'https://eliasmwewa-portfolio.vercel.app/' 
+    },
+    {
+        id:7,
+        title: 'Zenith Screening Application',
+        Description: 'Mental Health Application tool for healthcare providers',
+        images: '/images/projects/zenith.png',
+        tag: ['All','Mobile'],
+        gitUrl: '/',
+        previewUrl: 'https://zenith-zambia-mhd.flutterflow.app'
     },
 ];
 
