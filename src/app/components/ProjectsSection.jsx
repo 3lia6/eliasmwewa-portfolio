@@ -63,7 +63,7 @@ const projectsData = [
         id:7,
         title: 'Zenith Screening Application',
         Description: 'Mental Health Application tool for healthcare providers',
-        images: '/images/projects/zenith.png',
+        image: '/images/projects/zenith.png',
         tag: ['All','Mobile'],
         gitUrl: '/',
         previewUrl: 'https://zenith-zambia-mhd.flutterflow.app'
