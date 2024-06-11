@@ -16,17 +16,17 @@ const Footer = () => {
           <div className="md:mr-8 mb-4 md:mb-0 justify-center">
             <h2 className="text-lg font-semibold text-white mb-2">My Associates</h2>
             <ul className="list-none">
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">Zambart</a></li>
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">Recursive Tech Sol</a></li>
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">FKCM Fisheries</a></li>
+              <li className="text-left mb-2"><a href="https://www.zambart.org.zm/" className="underline-none hover:text-white">Zambart</a></li>
+              <li className="text-left mb-2"><a href="https://recursivetechsol.com/Web-Development.html" className="underline-none hover:text-white">Recursive Tech Sol</a></li>
+              <li className="text-left mb-2"><a href="https://f-k-c-m-fisheries.flutterflow.app" className="underline-none hover:text-white">FKCM Fisheries</a></li>
             </ul>
           </div>
           <div className="md:mr-8 mb-4 md:mb-0 justify-center">
             <h2 className="text-lg font-semibold text-white mb-2">Associated Products</h2>
             <ul className="list-none">
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">Zenith Mental Health</a></li>
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">FKCM Fisheries</a></li>
-              <li className="text-left mb-2"><a href="#" className="underline-none hover:text-white">Jesuit Ai</a></li>
+              <li className="text-left mb-2"><a href="https://zenithmentalhealth.flutterflow.app/" className="underline-none hover:text-white">Zenith Mental Health</a></li>
+              <li className="text-left mb-2"><a href="https://f-k-c-m-fisheries.flutterflow.app" className="underline-none hover:text-white">FKCM Fisheries</a></li>
+              <li className="text-left mb-2"><a href="https://jesuitai.flutterflow.app" className="underline-none hover:text-white">Jesuit Ai</a></li>
             </ul>
           </div>
           <div className='justify-center'>
