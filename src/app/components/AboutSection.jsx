@@ -44,9 +44,10 @@ const TAB_DATA = [
         id: 'experience',
         content: (
             <ul className='list-disc pl-2'>
-                <li>Consultant Software Developer - Zambart House</li>
-                <li>Software Developer - Recursive Tech solutions</li>
-                <li>Volunteer - Family Legacy</li>
+                <li>Consultant Software Developer - Zambart House 2023-24</li>
+                <li>Software Developer - Recursive Tech solutions 2023-24</li>
+                <li>Sound Engineering/AVD Family Legacy Missions International 2024</li>
+                <li>Volunteer - Family Legacy 2018</li>
             </ul>
         )
     },
